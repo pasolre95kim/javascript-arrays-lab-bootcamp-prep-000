@@ -19,6 +19,5 @@ function destructivelyRemoveLastKitten(name) {
 }
 
 function destructivelyRemoveFirstKitten(name) {
-  kitten.slice(1)
-  return name
+  return kitten.slice(1)
 }
